@@ -1,0 +1,23 @@
+C200 / Spring 2025
+Homework Assignment 01
+Divya Rasania
+drasania
+
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/hw01-script-L.py
+Give me a famous quote from a movie: May the Force be with you
+Screaming: MAY THE FORCE BE WITH YOU, whispering: may the force be with you
+
+= RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/hw01-script-L.py
+Give me a famous quote from a movie: May the Force be with me
+Choose a word you want to replace: me
+Give me a word you want to replace that word with: you
+Final quote: May the Force be with me
+
+= RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/hw01-script-L.py
+Give me a famous quote from a movie: May the Force be with me
+Choose a word you want to replace: me
+Give me a word you want to replace 'me' with: you
+Final quote: May the Force be with you

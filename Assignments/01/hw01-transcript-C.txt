@@ -1,0 +1,36 @@
+C200 / Spring 2025
+Homework Assignment 01
+Divya Rasania
+drasania
+
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> int("hi")
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    int("hi")
+ValueError: invalid literal for int() with base 10: 'hi'
+>>> def f():
+...     print("hello")
+... 
+...     
+>>> print("greet: " + f())
+hello
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    print("greet: " + f())
+TypeError: can only concatenate str (not "NoneType") to str
+>>> 9/0
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    9/0
+ZeroDivisionError: division by zero
+>>> int(6)
+6
+>>> def f():
+...     return "hello"
+... 
+>>> print("greet: " + f())
+greet: hello
+>>> 9/1
+9.0

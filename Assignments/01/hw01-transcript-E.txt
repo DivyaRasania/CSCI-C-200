@@ -1,0 +1,46 @@
+C200 / Spring 2025
+Homework Assignment 01
+Divya Rasania
+drasania
+
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print("Do you agree?")
+Do you agree?
+reply = input()
+yes
+print("You said " + reply)
+You said yes
+>>> 
+============ RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-script-E.py ===========
+Do you agree?
+yes
+You said yes
+>>> 
+============ RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-script-E.py ===========
+Do you agree?
+nO
+You said nO
+>>> 
+============ RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-script-E.py ===========
+Do you agree?
+YES
+You said YES
+>>> 
+============ RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-script-E.py ===========
+Do you agree?
+YES
+You said yes
+>>> 
+============ RESTART: C:/Users/div/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-script-E.py ===========
+Do you agree?
+NO
+You said no
+>>> "    yes.     ".strip()
+'yes.'
+>>> "Yes?!?!".strip("!")
+'Yes?!?'
+>>> "YES?!?!".strip("?")
+'YES?!?!'
+>>> "...Yes?!?!".strip("!?.")
+'Yes'
