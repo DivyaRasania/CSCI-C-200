@@ -8,7 +8,7 @@ def cone_volume(radius,height):
     '''
     number, number -> number
     '''
-    return math.pi * (radius**2) * (height / 3)
+    return round(math.pi * (radius**2) * (height / 3), 2)
 
 # Problem 2
 #input t hours
@@ -17,7 +17,7 @@ def tv_watching_percent(hours_past_4pm):
     '''
     number -> number
     '''
-    return (hours_past_4pm / 24) * 100
+    return round((0.01354 * (hours_past_4pm ** 4)) - (0.49375 * (hours_past_4pm ** 3)) + (2.5833 * (hours_past_4pm ** 2)) + (3.8 * hours_past_4pm) + 31.60704, 2)
 
 # Problem 3
 #input number of susceptible, but healthy children
@@ -37,7 +37,7 @@ def sales_model(months):
     '''
     number -> number
     '''
-    return math.floor((533 / (1 + 869 * math.exp(-1.33*months))))
+    return round(math.floor((532) / (1 + 869 * (math.exp(-1.33 * months)))))
 
 # Problem 5
 #input time seconds
@@ -90,7 +90,7 @@ def T_wc(temp,wind_speed):
     '''
     number, number -> number
     '''
-    return int(math.floor(35.74 + 0.6215 * (temp)) - 35.75 * (wind_speed ** 0.16) + (0.4275 * (temp) * (wind_speed) ** 0.16))
+    return math.floor((35.74) + (0.6215 * temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * temp * (wind_speed ** 0.16)))
 
 #problem 10
 #input sphere volune
@@ -100,15 +100,14 @@ def volume_to_radius(volume):
     number -> number
     '''
     radius = (3 * volume / (4 * math.pi)) ** (1/3)
-    return radius
+    return round(radius, 2)
 
 def side_max_square(volume):
     '''
     number -> number
     '''
     radius = volume_to_radius(volume)
-    side = radius * math.sqrt(2)
-    return side
+    return round((2 * radius) / math.sqrt(3), 2)
 
 #problem 11
 #input list of market prices per share
