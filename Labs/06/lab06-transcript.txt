@@ -1,0 +1,214 @@
+# C200 / Spring 2025
+# Lab 06
+# Divya Rasania
+# drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+3
+32
+34
+16
+None
+>>> 
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+1st: 0
+2nd: 0
+3rd: 3
+1st: 0
+2nd: 0
+3rd: 32
+1st: 0
+2nd: 0
+3rd: 34
+1st: 0
+2nd: 0
+3rd: 16
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+3
+32
+34
+16
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+3
+32
+34
+16
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+1st: 0
+2nd: 0
+3rd: 3
+1st: 0
+2nd: 0
+3rd: 32
+1st: 0
+2nd: 0
+3rd: 34
+1st: 0
+2nd: 0
+3rd: 16
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+1st: 0
+2nd: 0
+3rd: 3
+1st: 0
+2nd: 0
+3rd: 32
+1st: 0
+2nd: 0
+3rd: 34
+1st: 0
+2nd: 0
+3rd: 16
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+1st: 
+1st: 0
+2nd: 0
+3rd: 3
+2nd: john
+2nd: 3
+3rd: 32
+2nd: mike
+2nd: 32
+3rd: 34
+2nd: anna
+None
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\06\lab06.py
+[3, 99]
+
+*
+**
+***
+****
+*****
+5
+4
+3
+2
+1
+0
+anna

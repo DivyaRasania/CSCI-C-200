@@ -1,0 +1,260 @@
+# C200 / Spring 2025
+# Homework Assignment 02
+# Divya Rasania
+# drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+# Task B
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Assignments\02\hw02-functions.py
+toThePower(3,3)
+27
+toThePower(-0.1,3)
+-0.0010000000000000002
+quadruplicate("na")
+'nananana'
+quadruplicate("..?")
+'..?..?..?..?'
+subtract(10,3)
+7
+subtract(2.2,5)
+-2.8
+multiplicate("x",5)
+'xxxxx'
+ multiplicate("goo",3)
+ 
+SyntaxError: unexpected indent
+multiplicate("goo",3)
+'googoogoo'
+multiplicate("never",0)
+''
+
+# Task C
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne(2)
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    mersenne(2)
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 5, in mersenne
+    return 2**(n)-1
+NameError: name 'n' is not defined
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne(2)
+3
+mersenne(5)
+31
+mersenne(19)
+524287
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne(2, 5, 19)
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    mersenne(2, 5, 19)
+TypeError: mersenne() takes 1 positional argument but 3 were given
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne(2, 5, 19)
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    mersenne(2, 5, 19)
+TypeError: mersenne() takes 0 positional arguments but 3 were given
+mersenne()
+Enter a list of numbers: 2, 5, 19
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 7, in mersenne
+    for i in numList:
+NameError: name 'numList' is not defined. Did you mean: 'newList'?
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: (2, 5, 19)
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 8, in mersenne
+    for i in numList:
+NameError: name 'numList' is not defined. Did you mean: 'nuwList'?
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: (2, 5, 19)
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 9, in mersenne
+    mersennedList += 2**(i)-1
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'str'
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: 2, 5, 19
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 9, in mersenne
+    mersennedList += 2**(i)-1
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'str'
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: 2, 5, 19
+2, 5, 19
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: 2, 5, 19
+('2', ',', ' ', '5', ',', ' ', '1', '9')
+mersenne()
+Enter a list of numbers: 2 5 19
+('2', ' ', '5', ' ', '1', '9')
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: 2 5 19
+('2', '5', '19')
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers: 2 5 19
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 10, in mersenne
+    mersennedList += 2**(i)-1
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'str'
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 10, in mersenne
+    mersennedList += 2**(int(i))-1
+TypeError: 'int' object is not iterable
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+>>> mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 10, in mersenne
+    mersennedList += 2**(int(i))-1
+TypeError: can only concatenate tuple (not "int") to tuple
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+>>> mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 10, in mersenne
+    mersennedList.append(2**(int(i))-1)
+AttributeError: 'tuple' object has no attribute 'append'
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+>>> mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+[3, 31, 524287]
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+>>> mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    mersenne()
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py", line 6, in mersenne
+    mersennedList.append(2**(i)-1)
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'str'
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-mersenne.py
+>>> mersenne()
+Enter a list of numbers(eg. 1 2 3): 2 5 19
+[3, 31, 524287]
+
+# Task D
+
+=========================== RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Assignments\02\hw02-functions.py ===========================
+fma(10, 30)
+300
+
+# Task G
+
+def how_many_vowels(string):
+    '''
+    string -> number
+    '''
+    vowels = 0
+    count = 0
+    small_string = string.lower()
+    while count < len(small_string):
+        if small_string[count] == 'a' or small_string[count] == 'e' or small_string[count] == 'i' or small_string[count] == 'o' or small_string[count] == 'u':
+            vowels += 1
+        count += 1
+    return vowels
+
+how_many_vowels('hellO')
+2
+
+>>> def how_many_vowels(string):
+...     '''
+...     string -> number
+...     '''
+...     vowels = 0
+...     count = 0
+...     small_string = string.lower()
+...     while count < len(small_string):
+...         if small_string[count] in {'a', 'e', 'i', 'o', 'u'}:
+...             vowels += 1
+...         count += 1
+...     return vowels
+... 
+>>> how_many_vowels('hellO')
+2
+>>> how_many_vowels("Tessellated?")
+4
+>>> how_many_vowels("Aeiou!")
+5
+>>> def how_many_vowels(string):
+...     '''
+...     string -> number
+...     '''
+...     string = string.lower()
+...     return string.count('a') + string.count('e') + string.count('i') + string.count('o') + string.count('u')
+... 
+>>> how_many_vowels('hellO')
+2
+>>> how_many_vowels("Tessellated?")
+4
+>>> how_many_vowels("Aeiou!")
+5
+
+# Task H
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-temperature.py
+convert_temp()
+Please enter a temperature to convert: 32
+The converted tempurature is:
+32.0 Fahrenheit -> 89.6 Celsius
+32.0 Celsius -> 0.0 Fahrenheit
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-temperature.py
+convert_temp()
+Please enter a temperature to convert: 32
+The converted tempurature is:
+32.0 Fahrenheit -> 0.0 Celsius
+32.0 Celsius -> 89.6 Fahrenheit
+
+# Task I
+
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/02/hw02-tempWithFunctions.py
+20 Celsius converted to Fahrenheit is: 68.0
+73 Fahrenheit converted to Celsius is: 22.77777777777778

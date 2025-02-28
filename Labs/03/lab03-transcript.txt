@@ -1,0 +1,54 @@
+C200 / Spring 2025
+Lab 03
+Divya Rasania
+drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+square(3)
+9
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+The square of 7 is 49
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+square2(6.3)
+39.69
+num
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    num
+NameError: name 'num' is not defined. Did you mean: 'sum'?
+result
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    result
+NameError: name 'result' is not defined
+def square3(num):
+    return num * num
+
+square3(5)
+25
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+>>> double_dash("ha")
+'ha-ha'
+>>> 
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+>>> box_volume(4,5,6)
+120
+>>> 
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\03\lab03-functions.py
+>>> square(8)
+64

@@ -1,0 +1,161 @@
+C200 / Spring 2025
+Lab 04
+Divya Rasania
+drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces -80.0
+speedometer(-1, 5, 0.5) produces -12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces Sailfish's average speed is 68
+animal_average_speed(1,) produces Goose's average speed is 88
+animal_average_speed(2,) produces Wildebeest's average speed is 50
+Enter a valid animal type
+animal_average_speed(3,) produces 's average speed is 0
+Testing animal_speed_compare()
+Traceback (most recent call last):
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 103, in <module>
+    print(myTestString(animal_speed_compare, x))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 81, in myTestString
+    return func.__name__ + "" + str(params) + " produces " + str(func(*params))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 72, in animal_speed_compare
+    if first_animal > second_animal:
+TypeError: '>' not supported between instances of 'float' and 'str'
+
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces Sailfish's average speed is 68
+animal_average_speed(1,) produces Goose's average speed is 88
+animal_average_speed(2,) produces Wildebeest's average speed is 50
+Enter a valid animal type
+animal_average_speed(3,) produces 's average speed is 0
+Testing animal_speed_compare()
+Traceback (most recent call last):
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 103, in <module>
+    print(myTestString(animal_speed_compare, x))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 81, in myTestString
+    return func.__name__ + "" + str(params) + " produces " + str(func(*params))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 72, in animal_speed_compare
+    if first_animal > second_animal:
+TypeError: '>' not supported between instances of 'float' and 'str'
+
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces Sailfish's average speed is 68
+animal_average_speed(1,) produces Goose's average speed is 88
+animal_average_speed(2,) produces Wildebeest's average speed is 50
+Enter a valid animal type
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+Traceback (most recent call last):
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 104, in <module>
+    print(myTestString(animal_speed_compare, x))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 82, in myTestString
+    return func.__name__ + "" + str(params) + " produces " + str(func(*params))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 73, in animal_speed_compare
+    if first_animal > second_animal:
+TypeError: '>' not supported between instances of 'float' and 'str'
+>>> 
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces Sailfish's average speed is 68
+animal_average_speed(1,) produces Goose's average speed is 88
+animal_average_speed(2,) produces Wildebeest's average speed is 50
+animal_average_speed(3,) produces Enter a valid animal type
+Testing animal_speed_compare()
+Traceback (most recent call last):
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 103, in <module>
+    print(myTestString(animal_speed_compare, x))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 81, in myTestString
+    return func.__name__ + "" + str(params) + " produces " + str(func(*params))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 72, in animal_speed_compare
+    if first_animal > second_animal:
+TypeError: '>' not supported between instances of 'float' and 'str'
+>>> 
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces Sailfish's average speed is 68
+animal_average_speed(1,) produces Goose's average speed is 88
+animal_average_speed(2,) produces Wildebeest's average speed is 50
+animal_average_speed(3,) produces Enter a valid animal type
+Testing animal_speed_compare()
+Traceback (most recent call last):
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 105, in <module>
+    print(myTestString(animal_speed_compare, x))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 83, in myTestString
+    return func.__name__ + "" + str(params) + " produces " + str(func(*params))
+  File "C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py", line 72, in animal_speed_compare
+    if first_animal > second_animal:
+TypeError: '>' not supported between instances of 'float' and 'str'
+
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces 68
+animal_average_speed(1,) produces 88
+animal_average_speed(2,) produces 50
+animal_average_speed(3,) produces Enter a valid animal type
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces The 80.0 is slower
+animal_speed_compare(0.0, 400, 5.0, 0) produces The 80.0 is faster
+animal_speed_compare(25, 150, 1.0, 2) produces The 125.0 is faster
+
+================================================= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Labs/04/lab04-functions.py =================================================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80.0
+speedometer(-1, 5, 0.5) produces 12.0
+speedometer(0, 0, 1.0) produces 0.0
+speedometer(6, -100, 3) produces 35.333333333333336
+Testing animal_average_speed()
+animal_average_speed(0,) produces 68
+animal_average_speed(1,) produces 88
+animal_average_speed(2,) produces 50
+animal_average_speed(3,) produces Enter a valid animal type
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces The first animal is slower
+animal_speed_compare(0.0, 400, 5.0, 0) produces The first animal is faster
+animal_speed_compare(25, 150, 1.0, 2) produces The first animal is faster

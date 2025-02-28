@@ -1,0 +1,20 @@
+C200 / Spring 2025
+Homework Assignment 01
+Divya Rasania
+drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw-01-divya.py
+First Name: Divya
+Last Name: Rasania
+First Name: Divya
+Last Name: Rasania
+First Name: Divya
+Last Name: Rasania
+Nickname from a videogame: notsodivine
+>>> 
+= RESTART: C:/Users/drasania/OneDrive - Indiana University/2025/Spring/CSCI-C 200/Assignments/01/hw01-the-fault-in-our-stars.py
+A book: The Fault in Our Stars
+A credited person: John Green
