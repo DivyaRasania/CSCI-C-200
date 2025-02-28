@@ -292,7 +292,6 @@ def colinear(p0,p1,p2):
     expected_y = line['slope'] * p2[0] + line['intercept']
 
     return True if p2[1] == expected_y else False
-    # return math.isclose(p2[1], expected_y, abs_tol=0.001)
 
 #problem 9
 #INPUT three values: all have values or two have values and the remain has None
