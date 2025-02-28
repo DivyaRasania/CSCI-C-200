@@ -368,10 +368,7 @@ def var(lst):
     '''
     variance = 0
     u = mean(lst)
-
-    total_num = 0
-    while total_num < len(lst):
-        total_num += 1
+    total_num = len(lst)
 
     some_lst = []
     for i in lst:
@@ -386,9 +383,27 @@ def var(lst):
     return round(variance, 2)
 
 def std(lst):
+    '''
+    Given a list of numbers, return the standard deviation.
+
+    Args:
+        lst: list
+
+    Returns:
+        standard_deviation: number
+    '''
     return round(math.sqrt(var(lst)), 2)
 
 def mean_centered(lst):
+    '''
+    Given a list of numbers, return mean minus each value in the list.
+
+    Args:
+        lst: list
+    
+    Returns:
+        mean_centered_lst: list
+    '''
     mean_num = mean(lst)
     mean_centered_num = 0
     mean_centered_lst = []
@@ -532,7 +547,6 @@ if __name__ == "__main__":
     # print(var(lst))
     # print(std(lst))
     # print(mean(mean_centered(lst)))
-
 
     #problem 11
     # for i in range(10):
