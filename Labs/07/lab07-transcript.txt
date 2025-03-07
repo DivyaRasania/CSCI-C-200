@@ -1,0 +1,192 @@
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py
+Factorial Practice
+===== Testing: while_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  while_factorial(1) == 1 	RIGHT
+  while_factorial(2) == 2 	RIGHT
+  while_factorial(3) == 6 	RIGHT
+  while_factorial(4) == 24 	RIGHT
+  while_factorial(5) == 120 	RIGHT
+  while_factorial(6) == 720 	RIGHT
+  while_factorial(10) == 3628800 	RIGHT
+
+
+
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py
+Factorial Practice
+===== Testing: while_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  while_factorial(1) == 1 	RIGHT
+  while_factorial(2) == 2 	RIGHT
+  while_factorial(3) == 6 	RIGHT
+  while_factorial(4) == 24 	RIGHT
+  while_factorial(5) == 120 	RIGHT
+  while_factorial(6) == 720 	RIGHT
+  while_factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  factorial(1) == 1 	RIGHT
+  factorial(2) == 2 	RIGHT
+  factorial(3) == 6 	RIGHT
+  factorial(4) == 24 	RIGHT
+  factorial(5) == 120 	RIGHT
+  factorial(6) == 720 	RIGHT
+  factorial(10) == 3628800 	RIGHT
+
+
+
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py
+Factorial Practice
+===== Testing: while_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  while_factorial(1) == 1 	RIGHT
+  while_factorial(2) == 2 	RIGHT
+  while_factorial(3) == 6 	RIGHT
+  while_factorial(4) == 24 	RIGHT
+  while_factorial(5) == 120 	RIGHT
+  while_factorial(6) == 720 	RIGHT
+  while_factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  factorial(1) == 1 	RIGHT
+  factorial(2) == 2 	RIGHT
+  factorial(3) == 6 	RIGHT
+  factorial(4) == 24 	RIGHT
+  factorial(5) == 120 	RIGHT
+  factorial(6) == 720 	RIGHT
+  factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: tail_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  tail_factorial(1) == 1 	RIGHT
+  tail_factorial(2) == 2 	RIGHT
+  tail_factorial(3) == 6 	RIGHT
+  tail_factorial(4) == 24 	RIGHT
+  tail_factorial(5) == 120 	RIGHT
+  tail_factorial(6) == 720 	RIGHT
+  tail_factorial(10) == 3628800 	RIGHT
+
+
+
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py
+Factorial Practice
+===== Testing: while_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  while_factorial(1) == 1 	RIGHT
+  while_factorial(2) == 2 	RIGHT
+  while_factorial(3) == 6 	RIGHT
+  while_factorial(4) == 24 	RIGHT
+  while_factorial(5) == 120 	RIGHT
+  while_factorial(6) == 720 	RIGHT
+  while_factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  factorial(1) == 1 	RIGHT
+  factorial(2) == 2 	RIGHT
+  factorial(3) == 6 	RIGHT
+  factorial(4) == 24 	RIGHT
+  factorial(5) == 120 	RIGHT
+  factorial(6) == 720 	RIGHT
+  factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: tail_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  tail_factorial(1) == 1 	RIGHT
+  tail_factorial(2) == 2 	RIGHT
+  tail_factorial(3) == 6 	RIGHT
+  tail_factorial(4) == 24 	RIGHT
+  tail_factorial(5) == 120 	RIGHT
+  tail_factorial(6) == 720 	RIGHT
+  tail_factorial(10) == 3628800 	RIGHT
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py", line 35, in <module>
+    if func(indicies[0]) != None:
+  File "C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py", line 21, in memo_factorial
+    if n not in d.keys():
+NameError: name 'd' is not defined. Did you mean: 'id'?
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\07\lab07.py
+Factorial Practice
+===== Testing: while_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  while_factorial(1) == 1 	RIGHT
+  while_factorial(2) == 2 	RIGHT
+  while_factorial(3) == 6 	RIGHT
+  while_factorial(4) == 24 	RIGHT
+  while_factorial(5) == 120 	RIGHT
+  while_factorial(6) == 720 	RIGHT
+  while_factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  factorial(1) == 1 	RIGHT
+  factorial(2) == 2 	RIGHT
+  factorial(3) == 6 	RIGHT
+  factorial(4) == 24 	RIGHT
+  factorial(5) == 120 	RIGHT
+  factorial(6) == 720 	RIGHT
+  factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: tail_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  tail_factorial(1) == 1 	RIGHT
+  tail_factorial(2) == 2 	RIGHT
+  tail_factorial(3) == 6 	RIGHT
+  tail_factorial(4) == 24 	RIGHT
+  tail_factorial(5) == 120 	RIGHT
+  tail_factorial(6) == 720 	RIGHT
+  tail_factorial(10) == 3628800 	RIGHT
+
+
+
+===== Testing: memo_factorial() =====
+Our Inputs: [1, 2, 3, 4, 5, 6, 10]
+Your Outputs:
+  memo_factorial(1) == 1 	RIGHT
+  memo_factorial(2) == 2 	RIGHT
+  memo_factorial(3) == 6 	RIGHT
+  memo_factorial(4) == 24 	RIGHT
+  memo_factorial(5) == 120 	RIGHT
+  memo_factorial(6) == 720 	RIGHT
+  memo_factorial(10) == 3628800 	RIGHT
+
+
+
