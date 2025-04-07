@@ -16,14 +16,9 @@ def encode(msg, shift):
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyz{'
     encoded_msg = ''
-<<<<<<< HEAD
-
-    for char in msg.replace(' ', '{'):
-=======
     msg = msg.replace(' ', '{')
     
     for char in msg:
->>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
         idx = alphabet.index(char)
         new_idx = (idx + shift) % len(alphabet)
         encoded_msg += alphabet[new_idx]
@@ -57,10 +52,6 @@ def decode(msg, shift):
 ########################
 # PROBLEM 2
 ########################
-<<<<<<< HEAD
-def tiles(n,v,lst):
-    pass
-=======
 def tiles(n, v, lst):
     """
     Find all possible combinations of tiles that sum to n.
@@ -91,15 +82,11 @@ def tiles(n, v, lst):
         result.extend(tiles(n, v, new_lst))
     
     return result
->>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 ########################
 # PROBLEM 3
 ########################
 def secdec_dec(n):
-<<<<<<< HEAD
-    pass
-=======
     """
     Convert a base-17 number (string) to decimal.
 
@@ -117,21 +104,11 @@ def secdec_dec(n):
         result = result * base + value
     
     return result
->>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 ########################
 # PROBLEM 4
 ########################
 def intersection(x,y):
-<<<<<<< HEAD
-    pass
-
-def block_distance(p0,p1):
-    pass
-
-def get_points(center,bd):
-    pass
-=======
     """
     Returns the intersection of two lists x and y.
 
@@ -175,7 +152,6 @@ def get_points(center,bd):
             if block_distance(center, (x, y)) <= bd:
                 points.append((x, y))
     return points
->>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 if __name__ == "__main__":
     """
@@ -196,19 +172,11 @@ if __name__ == "__main__":
     # print(decode(secret_msg,24))
 
     # Problem 2
-<<<<<<< HEAD
-    n = 6
-    v = [1,2,3]
-    print(tiles(n,v,[[i] for i in v]))
-    for i in tiles(n,v,[[i] for i in v]):
-        print(sum(i), end="")
-=======
     # n = 6
     # v = [1,2,3]
     # print(tiles(n,v,[[i] for i in v]))
     # for i in tiles(n,v,[[i] for i in v]):
     #     print(sum(i), end="")
->>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
     # n = 4
     # v = [1,2]
