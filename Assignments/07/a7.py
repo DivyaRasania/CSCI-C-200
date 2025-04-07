@@ -16,8 +16,14 @@ def encode(msg, shift):
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyz{'
     encoded_msg = ''
+<<<<<<< HEAD
 
     for char in msg.replace(' ', '{'):
+=======
+    msg = msg.replace(' ', '{')
+    
+    for char in msg:
+>>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
         idx = alphabet.index(char)
         new_idx = (idx + shift) % len(alphabet)
         encoded_msg += alphabet[new_idx]
@@ -51,19 +57,73 @@ def decode(msg, shift):
 ########################
 # PROBLEM 2
 ########################
+<<<<<<< HEAD
 def tiles(n,v,lst):
     pass
+=======
+def tiles(n, v, lst):
+    """
+    Find all possible combinations of tiles that sum to n.
+    
+    Args:
+        n (int): Target sum
+        v (list): List of available tile values
+        lst (list): Initial combinations to start with
+    
+    Returns:
+        list: List of all possible combinations that sum to n
+    """
+    result = []
+    
+    for combo in lst:
+        if sum(combo) == n:
+            result.append(combo)
+    
+    new_lst = []
+    for combo in lst:
+        if sum(combo) < n:
+            for val in v:
+                new_combo = combo + [val]
+                if sum(new_combo) <= n:
+                    new_lst.append(new_combo)
+    
+    if new_lst:
+        result.extend(tiles(n, v, new_lst))
+    
+    return result
+>>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 ########################
 # PROBLEM 3
 ########################
 def secdec_dec(n):
+<<<<<<< HEAD
     pass
+=======
+    """
+    Convert a base-17 number (string) to decimal.
+
+    Args:
+        n (str): The base-17 number as a string
+
+    Returns:
+        int: The decimal equivalent of the base-17 number
+    """
+    base = 17
+    result = 0
+    
+    for char in n:
+        value = int(char) if char.isdigit() else ord(char.upper()) - ord('A') + 10
+        result = result * base + value
+    
+    return result
+>>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 ########################
 # PROBLEM 4
 ########################
 def intersection(x,y):
+<<<<<<< HEAD
     pass
 
 def block_distance(p0,p1):
@@ -71,6 +131,51 @@ def block_distance(p0,p1):
 
 def get_points(center,bd):
     pass
+=======
+    """
+    Returns the intersection of two lists x and y.
+
+    Args:
+        x (list): First list
+        y (list): Second list
+    
+    Returns:
+        list: List of points that are in both x and y
+    """
+    return [point for point in x if point in y]
+ 
+def block_distance(p0,p1):
+    """
+    Returns the city block distance between two points p0 and p1.
+
+    Args:
+        p0 (tuple): First point (x,y)
+        p1 (tuple): Second point (x,y)
+
+    Returns:
+        int: The city block distance between p0 and p1
+    """
+    return abs(p0[0]-p1[0]) + abs(p0[1]-p1[1])
+ 
+ 
+def get_points(center,bd):
+    """
+    Returns a list of points within a city block distance bd from the center point.
+    
+    Args:
+        center (tuple): The center point (x,y)
+        bd (int): The block distance
+
+    Returns:
+        list: List of points within the block distance from the center
+    """
+    points = []
+    for x in range(center[0] - bd, center[0] + bd + 1):
+        for y in range(center[1] - bd, center[1] + bd + 1):
+            if block_distance(center, (x, y)) <= bd:
+                points.append((x, y))
+    return points
+>>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
 if __name__ == "__main__":
     """
@@ -91,11 +196,19 @@ if __name__ == "__main__":
     # print(decode(secret_msg,24))
 
     # Problem 2
+<<<<<<< HEAD
     n = 6
     v = [1,2,3]
     print(tiles(n,v,[[i] for i in v]))
     for i in tiles(n,v,[[i] for i in v]):
         print(sum(i), end="")
+=======
+    # n = 6
+    # v = [1,2,3]
+    # print(tiles(n,v,[[i] for i in v]))
+    # for i in tiles(n,v,[[i] for i in v]):
+    #     print(sum(i), end="")
+>>>>>>> 882a597751257c26a7800a4898d6be081ff8dac8
 
     # n = 4
     # v = [1,2]
