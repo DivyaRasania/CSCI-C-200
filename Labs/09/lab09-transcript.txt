@@ -1,0 +1,191 @@
+# C200 / Spring 2025
+# Lab 09
+# Divya Rasania
+# drasania
+
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+Recurrsion Binary Search: -1
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+Recurrsion Binary Search: -1
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+1
+Recurrsion Binary Search: 2
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+BINARY SORT
+Normal Binary Search: 1
+Recurrsion Binary Search: -1
+BUBBLE SORT
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+INSERTION SORT
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+BINARY SORT
+Normal Binary Search: 1
+Recurrsion Binary Search: -1
+
+BUBBLE SORT
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+INSERTION SORT
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: -1
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: -1
+NOT Same
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: None
+NOT Same
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: None
+NOT Same
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: -1
+NOT Same
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: 1
+Same
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: 1
+✅
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: 1
+✅
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [-9, -2, 0, 11, 45]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: 1
+✅
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [45, 11, 0, -2, -9]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
+>>> 
+= RESTART: C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\09\lab09.py
+---BINARY SORT---
+Normal Binary Search: 1
+Recurrsion Binary Search: 1
+✅
+
+---BUBBLE SORT---
+pre-sorted:  [-2, 45, 0, 11, -9]
+post-sort:  [-9, -2, 0, 11, 45]
+
+---INSERTION SORT---
+pre sort!:  [9, 5, 1, 4, 3]
+array is sorted using insertion sort!:  [1, 3, 4, 5, 9]
