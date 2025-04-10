@@ -1,0 +1,933 @@
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57476' '--' '-m' 'main' 
+c:\Program Files\Python312\python.exe: No module named main
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57489' '--' '-m' 'main' 
+c:\Program Files\Python312\python.exe: No module named main
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57508' '--' 'C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+ - 8123357216
+ - 48138138
+ - 8541836418
+ - 123456789
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57533' '--' 'main' 
+Traceback (most recent call last):
+  File "c:\Program Files\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+    cli.main()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+    run()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 309, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 278, in _get_code_from_file
+    with io_open_code(decoded_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\drasania\\OneDrive - Indiana University\\2025\\Spring\\CSCI-C 200\\main'
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57545' '--' 'C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200' 
+Traceback (most recent call last):
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 255, in _get_main_module_details
+    return _get_module_details(main_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 172, in _get_module_details
+    raise error("No module named %s" % mod_name)
+ImportError: No module named __main__
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Program Files\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+    cli.main()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+    run()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 322, in run_path
+    mod_name, mod_spec, code = _get_main_module_details()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 258, in _get_main_module_details
+    raise error("can't find %r module in %r" % (main_name, sys.path[0])) from exc
+ImportError: can't find '__main__' module in 'C:\\Users\\drasania\\OneDrive - Indiana University\\2025\\Spring\\CSCI-C 200'
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57560' '--' 'C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200' 
+Traceback (most recent call last):
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 255, in _get_main_module_details
+    return _get_module_details(main_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 172, in _get_module_details
+    raise error("No module named %s" % mod_name)
+ImportError: No module named __main__
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Program Files\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+    cli.main()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+    run()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 322, in run_path
+    mod_name, mod_spec, code = _get_main_module_details()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 258, in _get_main_module_details
+    raise error("can't find %r module in %r" % (main_name, sys.path[0])) from exc
+ImportError: can't find '__main__' module in 'C:\\Users\\drasania\\OneDrive - Indiana University\\2025\\Spring\\CSCI-C 200'
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57574' '--' 'C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\.vscode\launch.json' 
+Traceback (most recent call last):
+  File "c:\Program Files\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+    cli.main()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+    run()
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 309, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 283, in _get_code_from_file
+    code = compile(f.read(), fname, "exec")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200\.vscode\launch.json", line 2
+    // Use IntelliSense to learn about possible attributes.
+    ^^
+SyntaxError: invalid syntax
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57593' '--' 'Labs/10/main.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+ - 8123357216
+ - 48138138
+ - 8541836418
+ - 123456789
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57611' '--' 'Labs/10/main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+ - 8123357216
+ - 48138138
+ - 8541836418
+ - 123456789
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57649' '--' 'Labs/10/main.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+
+Contact:  - (8123357216)
+
+Contact:  - (48138138)
+
+Contact:  - (8541836418)
+
+Contact:  - (123456789)
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57662' '--' 'Labs/10/main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Nick J Mobley
+Larry Gates
+Larry Gates
+Sup a man
+Sup a man
+This Little Name
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Contact: Nick J Mobley - (8123357216)
+Larry Gates
+Contact: Larry Gates - (48138138)
+Sup a man
+Contact: Sup a man - (8541836418)
+This Little Name
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57676' '--' 'Labs/10/main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Nick J Mobley
+Larry Gates
+Larry Gates
+Sup a man
+Sup a man
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Contact: Nick J Mobley - (8123357216)
+Larry Gates
+Contact: Larry Gates - (48138138)
+Sup a man
+Contact: Sup a man - (8541836418)
+
+Contact:  - (123456789)
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57692' '--' 'Labs/10/main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57733' '--' '.\Labs\10\main.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57747' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick...
+Dialing Larry...
+Dialing Sup...
+Dialing This...
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57773' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57799' '--' '.\Labs\10\main.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+Testing sendBirthdayText
+------------------------------------------------------------
+Expected Results
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup
+        Happy Birthday Sup!
+To Little:
+        Happy Birthday Little!
+Your Reuslts:
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup:
+        Happy Birthday Sup!
+To This:
+        Happy Birthday This!
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57856' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+Testing sendBirthdayText
+------------------------------------------------------------
+Expected Results
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup
+        Happy Birthday Sup!
+To Little:
+        Happy Birthday Little!
+Your Reuslts:
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup:
+        Happy Birthday Sup!
+To This:
+        Happy Birthday This!
+------------------------------------------------------------
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '57945' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+Testing sendBirthdayText
+------------------------------------------------------------
+Expected Results
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup
+        Happy Birthday Sup!
+To Little:
+        Happy Birthday Little!
+Your Reuslts:
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup:
+        Happy Birthday Sup!
+To This:
+        Happy Birthday This!
+------------------------------------------------------------
+Testing updateNumber
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '58032' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200> pytho
+pytho : The term 'pytho' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pytho
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytho:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200> python
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> middleName = ""
+>>> bool(middleName)
+False
+>>> middleName = "s" 
+>>> bool(middleName) 
+True
+>>> exit()
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '62368' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing get_all_contacts (addContact)
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '62380' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing get_all_contacts (addContact)
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '62394' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing get_all_contacts (addContact)
+Data from the file
+['Larry Gates, 1111111111, gatesls@iu.edu, 1.1.1990', 'Josh Baker, 2222222222, josh@iu.edu, 2.20.1995', 'Dr. M Dalkilic, 3333333333, dalkilic@indiana.edu, 4.29.1930', 'Dr. D Williamson, 4444444444, Williamson#indiana.edu, 12.21.1980']
+
+Contact:  - (1111111111)
+Contact:  - (2222222222)
+Contact:  - (3333333333)
+Contact:  - (4444444444)
+
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200> python
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> os.cwd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'cwd'
+>>> os.cwd()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'cwd'
+>>> os.pwd() 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'pwd'
+>>> contacts = ""                                    
+>>> with open("Labs/10/contacts.txt", "r") as cont:
+...     contacts = cont.read()
+...
+>>> contacts
+'Larry Gates, 1111111111, gatesls@iu.edu, 1.1.1990\nJosh Baker, 2222222222, josh@iu.edu, 2.20.1995\nDr. M Dalkilic, 3333333333, dalkilic@indiana.edu, 4.29.1930\nDr. D Williamson, 4444444444, Williamson#indiana.edu, 12.21.1980'
+>>> lst(contacts) 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'lst' is not defined. Did you mean: 'list'?
+>>> list(contacts)        
+['L', 'a', 'r', 'r', 'y', ' ', 'G', 'a', 't', 'e', 's', ',', ' ', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', ',', ' ', 'g', 'a', 't', 'e', 's', 'l', 's', '@', 'i', 'u', '.', 'e', 'd', 'u', ',', ' ', '1', '.', '1', '.', '1', '9', '9', '0', '\n', 'J', 'o', 's', 'h', ' ', 'B', 'a', 'k', 'e', 'r', ',', ' ', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', ',', ' ', 'j', 'o', 's', 'h', '@', 'i', 'u', '.', 'e', 'd', 'u', ',', ' ', '2', '.', '2', '0', '.', '1', '9', '9', '5', '\n', 'D', 'r', '.', ' ', 'M', ' ', 'D', 'a', 'l', 'k', 'i', 'l', 'i', 'c', ',', ' ', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', ',', ' ', 'd', 'a', 'l', 'k', 'i', 'l', 'i', 'c', '@', 'i', 'n', 'd', 'i', 'a', 'n', 'a', '.', 'e', 'd', 'u', ',', ' ', '4', '.', '2', '9', '.', '1', '9', '3', '0', '\n', 'D', 'r', '.', ' ', 'D', ' ', 'W', 'i', 'l', 'l', 'i', 'a', 'm', 's', 'o', 'n', ',', ' ', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', ',', ' ', 'W', 'i', 'l', 'l', 'i', 'a', 'm', 's', 'o', 'n', '#', 'i', 'n', 'd', 'i', 'a', 'n', 'a', '.', 'e', 'd', 'u', ',', ' ', '1', '2', '.', '2', '1', '.', '1', '9', '8', '0']
+>>> contacts.split(" ")
+['Larry', 'Gates,', '1111111111,', 'gatesls@iu.edu,', '1.1.1990\nJosh', 'Baker,', '2222222222,', 'josh@iu.edu,', '2.20.1995\nDr.', 'M', 'Dalkilic,', '3333333333,', 'dalkilic@indiana.edu,', '4.29.1930\nDr.', 'D', 'Williamson,', '4444444444,', 'Williamson#indiana.edu,', '12.21.1980']
+>>> contacts.split(" ", "\n") 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> contacts.split("\n")      
+['Larry Gates, 1111111111, gatesls@iu.edu, 1.1.1990', 'Josh Baker, 2222222222, josh@iu.edu, 2.20.1995', 'Dr. M Dalkilic, 3333333333, dalkilic@indiana.edu, 4.29.1930', 'Dr. D Williamson, 4444444444, Williamson#indiana.edu, 12.21.1980']
+>>> exit()
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '62804' '--' '.\Labs\10\main.py'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+Testing sendBirthdayText
+------------------------------------------------------------
+Expected Results
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup
+        Happy Birthday Sup!
+To Little:
+        Happy Birthday Little!
+Your Reuslts:
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup:
+        Happy Birthday Sup!
+To This:
+        Happy Birthday This!
+------------------------------------------------------------
+Testing updateNumber
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing get_all_contacts (addContact)
+Data from the file
+['Larry Gates, 1111111111, gatesls@iu.edu, 1.1.1990', 'Josh Baker, 2222222222, josh@iu.edu, 2.20.1995', 'Dr. M Dalkilic, 3333333333, dalkilic@indiana.edu, 4.29.1930', 'Dr. D Williamson, 4444444444, Williamson#indiana.edu, 12.21.1980']
+
+Contact:  - (1111111111)
+Contact:  - (2222222222)
+Contact:  - (3333333333)
+Contact:  - (4444444444)
+
+Phone Book: 0
+
+------------------------------
+Testing addContact with a dictionary
+         Contact:  - (1111111111)
+         Contact:  - (2222222222)
+         Contact:  - (3333333333)
+         Contact:  - (4444444444)
+         Contact:  - (8123357216)
+
+------------------------------
+Testing getContactCount (result should be 5)
+         1 False
+
+------------------------------
+Testing findContact
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200>  c:; cd 'c:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200'; & 'c:\Program Files\Python312\python.exe' 'c:\Users\drasania\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\launcher' '62835' '--' '.\Labs\10\main.py' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Testing Contact Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing getName
+------------------------------------------------------------
+Expected Results
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+Your Results ~~~~~~~~~~~~~~~~~~~~
+Nick J Mobley
+Larry Gates
+Sup a man
+This Little Name
+------------------------------------------------------------
+Testing __str__
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (8123357216)
+Contact: Larry Gates - (48138138)
+Contact: Sup a man - (8541836418)
+Contact: This Little Name - (123456789)
+------------------------------------------------------------
+Testing call
+------------------------------------------------------------
+Expected Results
+Expected Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing sup ...
+Dialing This ...
+Your Results
+Dialing Nick ...
+Dialing Larry ...
+Dialing Sup ...
+Dialing This ...
+------------------------------------------------------------
+Testing sendBirthdayText
+------------------------------------------------------------
+Expected Results
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup
+        Happy Birthday Sup!
+To Little:
+        Happy Birthday Little!
+Your Reuslts:
+To Nick:
+        Happy Birthday Nick!
+To Larry:
+        Happy Birthday Larry!
+To Sup:
+        Happy Birthday Sup!
+To This:
+        Happy Birthday This!
+------------------------------------------------------------
+Testing updateNumber
+------------------------------------------------------------
+Expected Results
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+Your Results ~~~~~~~~~~~~~~~~~~~
+Contact: Nick J Mobley - (48128546)
+Contact: Larry Gates - (48126879)
+Contact: Sup a man - (48430546)
+Contact: This Little Name - (26979487)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Testing PhoneBook Class
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Testing get_all_contacts (addContact)
+Data from the file
+['Larry Gates, 1111111111, gatesls@iu.edu, 1.1.1990', 'Josh Baker, 2222222222, josh@iu.edu, 2.20.1995', 'Dr. M Dalkilic, 3333333333, dalkilic@indiana.edu, 4.29.1930', 'Dr. D Williamson, 4444444444, Williamson#indiana.edu, 12.21.1980']
+
+Contact:  - (1111111111)
+Contact:  - (2222222222)
+Contact:  - (3333333333)
+Contact:  - (4444444444)
+
+Phone Book: 0
+
+------------------------------
+Testing addContact with a dictionary
+         Contact:  - (1111111111)
+         Contact:  - (2222222222)
+         Contact:  - (3333333333)
+         Contact:  - (4444444444)
+         Contact:  - (8123357216)
+
+------------------------------
+Testing getContactCount (result should be 5)
+         1 False
+
+------------------------------
+Testing findContact
+        Looking for `Mobley` and found [Contact:  - (8123357216)]
+        Looking for `Gate` and found []
+
+------------------------------
+Testing groupChat
+
+We are going to send a groupchat
+You: I got your number saved
+You: I got your number saved
+You: I got your number saved
+You: I got your number saved
+You: I got your number saved
+PS C:\Users\drasania\OneDrive - Indiana University\2025\Spring\CSCI-C 200> 
