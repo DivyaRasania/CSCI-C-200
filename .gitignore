@@ -1,2 +1,4 @@
 random/
 .venv/
+.vscode/
+__pycache__/
